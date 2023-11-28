@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>List</h1>
+    <ul style="list-style-type: none;">
+
+    <li><button class="Blue">Blue</button></li>
+
+    <li><button class="Red">Red</button></li>
+
+    <li><button class="Purple">Purple</button></li>
+
+    <li><button class="Green">Green</button></li>
+
+    <li><button class="Yellow">Yellow</button></li>
+</ul>
+
+<h2>Preferences</h2>
+
+<li class="darkbutton"><button onclick="myFunction()">Dark</button></li>
+
+<li class="neonbutton"><button onclick="Neon()">Neon</button></li>
+
+<li class="duskbutton"><button onclick="Dusk()">Dusk</button></li>
+
+
+    <script>
+        function myFunction() {
+           let element = document.body;
+           element.classList.toggle("Dark");
+        }   
+
+        function Neon() {
+           let element = document.body;
+           element.classList.toggle("Neon");
+        }
+
+        function Dusk() {
+           let element = document.body;
+           element.classList.toggle("Dusk");
+        }   
+
+        </script>
+
+<h3>List styles</h3>
+
+<li class="circlebutton"><button onclick="circle()">Circle</button></li>
+
+<li class="decimalbutton"><button onclick="Decimal()">Decimal</button></li>
+
+<li class="romanbutton"><button onclick="Roman()">Roman</button></li>
+<script>
+
+function circle() {
+           let element = document.body;
+           element.classList.toggle("Circle");
+        }  
+
+        function Decimal() {
+           let element = document.body;
+           element.classList.toggle("Decimal");
+        }  
+
+        function Roman() {
+           let element = document.body;
+           element.classList.toggle("Roman");
+        }  
+</script>
+
+
+    
+        
+        
+</body>
+</html>

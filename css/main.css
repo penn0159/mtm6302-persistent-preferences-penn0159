@@ -1,0 +1,70 @@
+
+  .body{
+    list-style-type: disc;
+  }
+  .Dark {
+    background-color: rgb(39, 38, 38);
+    color: white;
+    
+  }
+
+  .Neon {
+    background-color: rgb(24, 24, 65);
+    color: white;
+    
+  }
+
+  .Dusk {
+    background-color: rgb(77, 46, 34);
+    color: white;
+    
+  }
+
+  .Circle{
+    list-style-type:circle;
+  }
+
+  .Decimal{
+    list-style-type:decimal;
+  }
+
+  .Roman{
+    list-style-type:upper-roman;
+  }
+
+  
+
+
+  
+
+  ul li{
+    margin-bottom: 20px;
+  }
+
+  .Blue{
+    height: 50px;
+    width: 300px;
+    
+  }
+
+  .Red{
+    height: 50px;
+    width: 300px;
+  }
+
+  .Purple{
+    height: 50px;
+    width: 300px;
+  }
+
+  .Green{
+    height: 50px;
+    width: 300px;
+  }
+
+  .Yellow{
+    height: 50px;
+    width: 300px;
+  }
+
+
